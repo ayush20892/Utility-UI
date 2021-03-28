@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&display=swap');
+
+@import "component.css";
+
+body{
+  box-sizing: border-box;
+  font-family: 'Maven Pro', sans-serif;
+  background-color: var(--background-color);
+}
+
+hr{
+  margin: 3rem;
+  width: 100%;
+  position: relative;
+  right: 4rem;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+/* Navbar */
+.navbar{
+  width: 100%;
+  position: fixed;
+  top: 0rem;
+  border-radius: 1rem ;
+  padding: 2rem 0rem;
+  margin: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-img{
+  margin-left: 3rem;
+  margin-top: -1rem;
+}
+
+.navbar > a > .logo > span{
+  position: relative;
+  left: 1rem;
+  bottom: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.navbar > .nav-icons{
+  display: flex;
+  position: relative;
+  right: 2.8rem;
+}
+
+.nav-icons > span{
+  position: relative;
+  top: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav-icons > a > .fa{
+  position: relative;
+  top: 0.4rem;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav-icons > a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-icons > a:hover{
+  color: var(--dark-grey);
+}
+/***************?
+
+
+/* Side Bar */
+.sidebar{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin-left: 5rem;
+  margin-top: 8em;
+  /* overflow-y: auto; */
+}
+
+.sidebar > .sidebar-heading-1{
+  font-size: 1.3em;
+  margin-top: 1rem;
+}
+
+.sidebar-item{
+  margin-top: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+
+.sidebar-item:hover{
+  background-color: var(--secondary-color);
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.3rem;
+}
+
+.sidebar > ul > a > .sidebar-item{
+  position: relative;
+  right: 2rem;
+  color: black;
+}
+/*******/
+
+
+/* Main Section */
+.main-content{
+  max-width: 50%;
+  position: relative;
+  left: 22rem;
+  top: 7rem;
+}
+
+
+/* Iframe */
+#avatar > iframe{
+  max-width: 700px;
+}
