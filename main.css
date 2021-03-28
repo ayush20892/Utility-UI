@@ -100,7 +100,7 @@ a{
   bottom: 2rem;
 }
 
-.main-content > .h1-second > span{
+.main-content > .h1-second > a > span{
   color: var(--primary-color);
 }
 
@@ -128,3 +128,4 @@ a{
   padding: 1rem 3rem;
   box-shadow: var(--box-shadow);
 }
+
