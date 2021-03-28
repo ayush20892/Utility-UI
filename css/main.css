@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&display=swap');
+
+@import "./css/component.css";
+
+body{
+  box-sizing: border-box;
+  font-family: 'Maven Pro', sans-serif;
+  background-color: var(--background-color);
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Navbar */
+.navbar{
+  width: 100%;
+  position: fixed;
+  top: 0rem;
+  border-radius: 1rem ;
+  padding: 2rem 0rem;
+  margin: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-img{
+  margin-left: 3rem;
+  margin-top: -1rem;
+}
+
+.navbar > .logo{
+  cursor: pointer;
+}
+
+.navbar > a > .logo > span{
+  position: relative;
+  left: 1rem;
+  bottom: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.navbar > a > .doc{
+  position: relative;
+  top: 0.5rem;
+  left: -20rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.navbar > .nav-icons{
+  display: flex;
+  position: relative;
+  right: 6rem;
+}
+
+.nav-icons > span{
+  position: relative;
+  top: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav-icons > a > .fa{
+  position: relative;
+  top: 0.4rem;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav-icons > a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-icons > a:hover{
+  color: var(--dark-grey);
+}
+/***************/
+
+
+/* Main Content */
+.main-content{
+  position: relative;
+  top: 7rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.main-content > h1{
+  font-weight: 600;
+}
+
+.main-content > .h1-second{
+  position: relative;
+  bottom: 2rem;
+}
+
+.main-content > .h1-second > span{
+  color: var(--primary-color);
+}
+
+.main-content > p{
+  max-width: 500px;
+  margin: auto;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 2rem;
+}
+
+.main-content > .button{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 1rem;
+}
+
+.main-content > .button > a > .filled-btn > .btn{
+  padding: 1rem 2rem;
+}
+
+.main-content > .button > a > .outline-btn > .btn{
+  padding: 1rem 3rem;
+}
