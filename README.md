@@ -1,5 +1,5 @@
 # Component-Liblary
- Component Liblary containing different components to be used in various projects.
+ Component Library containing different components to be used in various projects.
 
 # Components:-
 Avatar
