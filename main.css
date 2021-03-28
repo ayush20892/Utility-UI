@@ -121,8 +121,10 @@ a{
 
 .main-content > .button > a > .filled-btn > .btn{
   padding: 1rem 2rem;
+  box-shadow: var(--box-shadow);
 }
 
 .main-content > .button > a > .outline-btn > .btn{
   padding: 1rem 3rem;
+  box-shadow: var(--box-shadow);
 }

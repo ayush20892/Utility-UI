@@ -121,8 +121,15 @@ a{
   top: 7rem;
 }
 
+#installation > h4{
+  font-weight: 450;
+  margin-bottom: 3rem;
+}
+
 
 /* Iframe */
-#avatar > iframe{
+ iframe{
   max-width: 700px;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
