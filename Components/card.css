@@ -18,7 +18,7 @@
   padding-bottom: 0.1rem;
   box-shadow: var(--box-shadow);
   display: flex;
-  flex-flow: column wrap;
+  flex-wrap: wrap;
 }
 
 .card-img{
@@ -127,7 +127,13 @@
 /* Card Overlay */
 .card-overlay{
   max-width: 400px;
+  height: 100%;
   position: relative;
+}
+
+.card-overlay > .card-img{
+  max-width: 400px;
+  height: 100%;
 }
 
 .card-text-overlay{
@@ -135,11 +141,23 @@
   top: 1.5rem;
   left: 1.5rem;
 }
+
+.card-text-overlay > p{
+  position: relative;
+}
 /*******/
 
 
 
 /* Text Card */
+.text-card{
+  max-width: 250px;
+}
+
+.text-card > .card-info > p{
+  position: relative;
+}
+
 .text-card > .btn-text {
   width: 50%;
   padding: -0.5rem;
@@ -152,8 +170,9 @@
 /* Vertical Card */
 .card-vertical{
   display: flex;
-  max-width: 500px;
-  gap: 0rem;
+  flex-wrap: wrap;
+  max-width: 390px;
+  gap: 0.5rem;
   padding: 0.6rem 0.6rem;
   padding-bottom: 0.6rem;
 }
@@ -161,18 +180,39 @@
 .card-vertical > .card-img{
   border-radius: 0.7rem 0.7rem 0 0;
   width: 100%;
-  max-width: 250px;
+  max-width: 180px;
   height: auto;
+}
+
+.card-vertical > .fa-heart-o{
+  position: absolute;
+  right: 2rem;
 }
 
 .card-vertical > .card-info{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card-vertical > .card-info > h3{
+  font-size: 1.5rem;
+}
+
+.card-vertical > .card-info > h4{
+  font-size: 0.8rem;
+  bottom: 1.5rem;
+}
+
+.card-vertical > .card-info > p{
+  position: relative;
+  font-size: 1rem;
 }
 
 .card-vertical > .card-info > .btn{
   position: relative;
-  bottom: -1rem;
+  bottom: 0.5rem;
   padding: 0.5rem 1.4rem;
   box-shadow: var(--box-shadow);
 }
