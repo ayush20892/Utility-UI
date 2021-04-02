@@ -171,7 +171,7 @@
 .card-vertical{
   display: flex;
   flex-wrap: wrap;
-  max-width: 390px;
+  max-width: 350px;
   gap: 0.5rem;
   padding: 0.6rem 0.6rem;
   padding-bottom: 0.6rem;
@@ -180,7 +180,7 @@
 .card-vertical > .card-img{
   border-radius: 0.7rem 0.7rem 0 0;
   width: 100%;
-  max-width: 180px;
+  max-width: 130px;
   height: auto;
 }
 
