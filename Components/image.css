@@ -1,0 +1,18 @@
+/* Image Section */
+.img-section{
+  display: flex;
+  gap: 8rem;
+}
+
+.img-section > div > .img-responsive{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.img-section > div > .img-round{
+  width: 100%;
+  max-width: 270px;
+  height: auto;
+  border-radius: 50%;
+}

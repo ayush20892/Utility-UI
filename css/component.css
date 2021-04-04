@@ -1,0 +1,42 @@
+@import "./Components/avatar.css";
+@import "./Components/alert.css";
+@import "./Components/button.css";
+@import "./Components/card.css";
+@import "./Components/image.css";
+@import "./Components/input.css";
+@import "./Components/list.css";
+@import "./Components/navigation.css";
+@import "./Components/toast.css";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&display=swap');
+
+body{
+  font-family: 'Maven Pro', sans-serif;
+  background-color: var(--background-color);
+}
+
+:root {
+  /* --primary-color: #e48257; */
+  --primary-color: #ff4500;
+  /* --secondary-color: #f2edd7; */
+  --secondary-color: #ffe5b4;
+  --background-color: #f3f4ed;
+  --dark-grey: #536162;
+  --red-pink: #f50057;
+  --gold-yellow: #fbbf24;
+  --li-green: #10b981;
+  --box-shadow: 1px 10px 18px #888888;
+  --primary-box-shadow: 8px 8px 16px #dfe7ed, -8px -8px 16px #ffffff;
+}
+
+a{
+  text-decoration: none;
+}
+
+body > h1{
+  margin-left: 1rem;
+}
+
+
