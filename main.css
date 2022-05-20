@@ -61,6 +61,10 @@ body {
   margin: 10px 0;
 }
 
+.main-content > .h1-second > a {
+  color: #ff4500;
+}
+
 .main-content > p {
   text-align: center;
   margin: 40px 0;
