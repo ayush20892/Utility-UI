@@ -2,13 +2,12 @@
   margin-top: 2rem;
 }
 
-
 /* Standard Input */
 .input-section > .standard-input {
   margin-top: 1rem;
 }
 
-.standard-input>.inp {
+.standard-input > .inp {
   position: relative;
   margin: 0.5em;
 }
@@ -25,11 +24,11 @@
   background-color: var(--background-color);
 }
 
-.inp > input:focus{
+.inp > input:focus {
   border-color: var(--dark-grey);
 }
 
-.inp> .inp-label {
+.inp > .inp-label {
   position: absolute;
   pointer-events: none;
   top: -0.2em;
@@ -39,7 +38,7 @@
   padding: 0.3em;
 }
 
-.fa-mobile{
+.fa-mobile {
   font-size: 1.8rem;
   color: var(--dark-grey);
   position: relative;
@@ -48,45 +47,45 @@
 }
 /************/
 
-
 /* Validation Input */
-.validation-input{
+.validation-input {
   display: flex;
-  gap: 4rem;
+  flex-direction: column;
+  gap: 20px;
   margin-bottom: 1rem;
 }
 
-.validation-input > .inp > input:focus{
+.validation-input > .inp > input:focus {
   border-color: var(--dark-grey);
 }
 
-.validation-input > .inp > input:focus::placeholder{
+.validation-input > .inp > input:focus::placeholder {
   color: var(--dark-grey);
 }
 
 /* Error */
-.validation-input > .inp> .inp-error{
+.validation-input > .inp > .inp-error {
   border: 1px solid var(--red-pink);
 }
 
-.validation-input > .inp> .inp-error::placeholder{
+.validation-input > .inp > .inp-error::placeholder {
   color: var(--red-pink);
 }
 
 /* Warning */
-.validation-input > .inp> .inp-warning{
+.validation-input > .inp > .inp-warning {
   border: 1px solid var(--gold-yellow);
 }
 
-.validation-input > .inp> .inp-warning::placeholder{
+.validation-input > .inp > .inp-warning::placeholder {
   color: var(--gold-yellow);
 }
 
 /* Succes */
-.validation-input > .inp> .inp-succes{
+.validation-input > .inp > .inp-succes {
   border: 1px solid var(--li-green);
 }
 
-.validation-input > .inp> .inp-succes::placeholder{
+.validation-input > .inp > .inp-succes::placeholder {
   color: var(--li-green);
 }

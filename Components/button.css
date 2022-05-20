@@ -1,123 +1,121 @@
-.btn-section{
-  margin: 2rem 1rem;;
+.btn-section {
+  margin: 2rem 1rem;
 }
 
-.simple-btn{
-  display: grid;
-  grid-template-columns: 130px 130px 130px;
-  grid-column-gap: 150px;
+.simple-btn {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
   margin-bottom: 1rem;
 }
 
-.btn{
+.btn {
   color: #212529;
   text-decoration: none;
   cursor: pointer;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: .7rem 1rem;
+  padding: 0.7rem 1rem;
   margin: 0rem 0.5rem;
   font-size: 1rem;
   border-radius: 0.3rem;
 }
 
-
-
 /* Filled Button */
-.filled-btn{
+.filled-btn {
   display: flex;
 }
 
-.btn-primary-fill{
+.btn-primary-fill {
   color: #fff;
   background-color: var(--primary-color);
 }
 
-.btn-secondary-fill{
+.btn-secondary-fill {
   color: black;
   background-color: var(--secondary-color);
   border-color: var(--primary-color);
 }
 
-.filled-btn > .btn:hover{
+.filled-btn > .btn:hover {
   opacity: 0.5;
 }
 /******/
 
-
-
 /* Ouline Button */
-.outline-btn{
+.outline-btn {
   display: flex;
 }
 
-.btn-primary-outline{
+.btn-primary-outline {
   border-color: var(--primary-color);
   color: var(--primary-color);
 }
 
-.btn-secondary-outline{
+.btn-secondary-outline {
   border-color: var(--secondary-color);
 }
 
-.outline-btn > .btn-primary-outline:hover{
+.outline-btn > .btn-primary-outline:hover {
   background-color: var(--primary-color);
   color: white;
   font-weight: bolder;
 }
 
-.outline-btn > .btn-secondary-outline:hover{
+.outline-btn > .btn-secondary-outline:hover {
   background-color: var(--secondary-color);
 }
 /*******/
 
 /* Link button*/
-.link{
+.link {
   margin-bottom: 1rem;
 }
-.btn-link{
+.btn-link {
   color: var(--dark-grey);
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
   background-color: transparent;
   border: 0px solid transparent;
-  padding: .7rem .2rem;
+  padding: 0.7rem 0.2rem;
   margin: 0rem 0rem;
   font-size: 1rem;
   border-radius: 0.3rem;
 }
 /*******/
 
-
-.btn-icon-section{
+.btn-icon-section {
   margin: 0rem 0.1rem;
   margin-bottom: 1rem;
 }
 
-.btn-icon-section > a{
+.btn-icon-section > a {
   text-decoration: none;
 }
 
-.btn-icon{
+.btn-icon {
   padding: 1rem 1rem;
   margin: 1rem 1rem;
-} 
+}
 
-.icons{
+.icons {
   width: 40px;
   height: 40px;
   margin-top: 2rem;
 }
 
-.icons:hover{
+.icons:hover {
   color: var(--secondary-color);
   padding: 0rem 0rem;
   background-color: var(--secondary-color);
   padding: 0.5rem 0.5rem;
 }
 
-.fa-icon{
+.fa-icon {
   color: var(--primary-color);
   background-color: var(--secondary-color);
   font-size: 50px;
@@ -133,13 +131,13 @@
   padding-right: 23px;
 }
 
-.fa-angle-right{
+.fa-angle-right {
   padding: 7px;
   padding-left: 23px;
   padding-right: 20px;
 }
 
-.fa-home{
+.fa-home {
   color: var(--primary-color);
   font-size: 40px;
   padding: 10px;
@@ -150,7 +148,7 @@
   background-color: var(--background-color);
 }
 
-.fa-share-alt{
+.fa-share-alt {
   color: var(--primary-color);
   font-size: 40px;
   padding: 10px;
@@ -161,7 +159,7 @@
   background-color: var(--background-color);
 }
 
-.fa-ban{
+.fa-ban {
   color: var(--primary-color);
   font-size: 40px;
   padding: 10px;
@@ -172,7 +170,7 @@
   background-color: var(--background-color);
 }
 
-.fa-bars{
+.fa-bars {
   color: var(--primary-color);
   font-size: 40px;
   font-weight: 10;
@@ -184,17 +182,16 @@
   background-color: var(--background-color);
 }
 
-
 /* Floating Button */
-.btn-float{
+.btn-float {
   margin: 1rem 1rem;
 }
 
-.btn-float-section{
+.btn-float-section {
   margin: 1rem 1rem;
 }
 
-.fa-plus{
+.fa-plus {
   color: var(--background-color);
   font-size: 30px;
   padding: 15px 20px;
@@ -205,7 +202,7 @@
   background-color: var(--primary-color);
 }
 
-.fa-heart{
+.fa-heart {
   color: var(--background-color);
   font-size: 30px;
   padding: 15px 20px;

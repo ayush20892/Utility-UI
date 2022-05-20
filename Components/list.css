@@ -9,7 +9,8 @@
 /* Spaced List */
 .spaced-list{
   display: flex;
-  gap: 8rem;
+  gap: 14px;
+  margin-top: 10px;
   margin-bottom: 1rem;
 }
 

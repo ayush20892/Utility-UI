@@ -1,15 +1,14 @@
-.card-section{
-
+.card-section {
 }
 
-.card-row{
+.card-row {
   display: flex;
-  gap: 2rem;
+  gap: 10px;
   /* justify-content: space-evenly; */
 }
 
-.card-card{
-  margin: 1rem 2rem;
+.card-card {
+  margin: 10px 10px;
   max-width: 150px;
   position: relative;
   border-radius: 1rem;
@@ -21,14 +20,14 @@
   flex-wrap: wrap;
 }
 
-.card-img{
+.card-img {
   border-radius: 0.7rem 0.7rem 0 0;
   width: 100%;
   max-width: 150px;
   height: auto;
 }
 
-.card-badge-new{
+.card-badge-new {
   position: absolute;
   font-size: 0.8rem;
   font-weight: 400;
@@ -41,7 +40,7 @@
   color: var(--secondary-color);
 }
 
-.fa-heart-o{
+.fa-heart-o {
   font-size: 1.4rem;
   color: var(--dark-grey);
   position: absolute;
@@ -49,39 +48,40 @@
   right: 1rem;
 }
 
-.fa-heart-o:hover{
+.fa-heart-o:hover {
   fill: var(--background-color);
-  cursor: pointer
+  cursor: pointer;
 }
 
-.card-info{
+.card-info {
   padding: 0.5rem;
   position: relative;
+  margin: 10px 0;
 }
 
-.card-info > h3{
-  font-size: 1rem;
+.card-info > h3 {
+  font-size: 20px;
   font-weight: 600;
   padding: 0rem 0;
   position: relative;
   bottom: 1.2rem;
 }
 
-.card-info > h4{
-  font-size: 0.8rem;
+.card-info > h4 {
+  font-size: 14px;
   font-weight: 400;
   padding: 0rem 0;
   position: relative;
   bottom: 1.5rem;
 }
 
-.card-info > p{
+.card-info > p {
   position: absolute;
-  bottom: 1rem;
+  bottom: 5px;
   font-size: 0.7rem;
 }
 
-.card-card > button > .icon{
+.card-card > button > .icon {
   width: 25px;
   height: 25px;
 }
@@ -92,7 +92,7 @@
   font-size: 0.8rem;
 }
 
-.card-card > .btn{
+.card-card > .btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,12 +104,12 @@
   box-shadow: var(--box-shadow);
 }
 
-.card-discount{
+.card-discount {
   color: var(--primary-color);
 }
 
- /* Card dismiss */
-.card-dismiss{
+/* Card dismiss */
+.card-dismiss {
   font-size: 1.3rem;
   color: var(--primary-color);
   background-color: var(--background-color);
@@ -123,38 +123,35 @@
 }
 /*******/
 
-
 /* Card Overlay */
-.card-overlay{
+.card-overlay {
   max-width: 400px;
   height: 100%;
   position: relative;
 }
 
-.card-overlay > .card-img{
+.card-overlay > .card-img {
   max-width: 400px;
   height: 100%;
 }
 
-.card-text-overlay{
+.card-text-overlay {
   position: absolute;
   top: 1.5rem;
   left: 1.5rem;
 }
 
-.card-text-overlay > p{
+.card-text-overlay > p {
   position: relative;
 }
 /*******/
 
-
-
 /* Text Card */
-.text-card{
+.text-card {
   max-width: 250px;
 }
 
-.text-card > .card-info > p{
+.text-card > .card-info > p {
   position: relative;
 }
 
@@ -168,7 +165,7 @@
 /******/
 
 /* Vertical Card */
-.card-vertical{
+.card-vertical {
   display: flex;
   flex-wrap: wrap;
   max-width: 350px;
@@ -177,50 +174,49 @@
   padding-bottom: 0.6rem;
 }
 
-.card-vertical > .card-img{
+.card-vertical > .card-img {
   border-radius: 0.7rem 0.7rem 0 0;
   width: 100%;
   max-width: 130px;
   height: auto;
 }
 
-.card-vertical > .fa-heart-o{
+.card-vertical > .fa-heart-o {
   position: absolute;
   right: 2rem;
 }
 
-.card-vertical > .card-info{
+.card-vertical > .card-info {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
 
-.card-vertical > .card-info > h3{
+.card-vertical > .card-info > h3 {
   font-size: 1.5rem;
 }
 
-.card-vertical > .card-info > h4{
+.card-vertical > .card-info > h4 {
   font-size: 0.8rem;
   bottom: 1.5rem;
 }
 
-.card-vertical > .card-info > p{
+.card-vertical > .card-info > p {
   position: relative;
   font-size: 1rem;
 }
 
-.card-vertical > .card-info > .btn{
+.card-vertical > .card-info > .btn {
   position: relative;
   bottom: 0.5rem;
   padding: 0.5rem 1.4rem;
   box-shadow: var(--box-shadow);
 }
 
-.card-vertical > .card-info > .btn > span{
+.card-vertical > .card-info > .btn > span {
   position: relative;
   top: -0.4rem;
   left: 0.6rem;
 }
 /********/
-
