@@ -1,0 +1,60 @@
+.toast-section {
+}
+
+.simple-toast-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Plain Toast */
+.plain-toast {
+  margin: 1rem 1rem;
+  background-color: #fff;
+  width: 500px;
+  padding: 0.3rem 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: -1rem;
+}
+
+.plain-toast > h3 {
+  font-weight: 500;
+}
+
+.plain-toast > span {
+  padding: 0.5rem 0rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+/**********/
+
+/* Designes Toast */
+.simple-toast-section > .designed-toast {
+  margin: 1rem 1rem;
+  background-color: #fff;
+  width: 30%;
+  padding: 0.3rem 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.simple-toast-section > .designed-toast > div > .upper-part {
+  display: flex;
+}
+
+.simple-toast-section > .designed-toast > div > hr {
+  margin: 0rem 0rem;
+  padding: 0rem 0rem;
+}
+
+@media screen and (max-width: 800px) {
+  .plain-toast {
+    width: 320px;
+  }
+}

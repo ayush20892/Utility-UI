@@ -1,0 +1,65 @@
+.list-section{
+
+}
+
+.list-non-bullets{
+  list-style: none;
+}
+
+/* Spaced List */
+.spaced-list{
+  display: flex;
+  gap: 14px;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+}
+
+.spaced-list > ul > .list-item{
+  padding: 0.5rem 2rem;
+  margin: 0.5rem 0rem;
+  cursor: pointer;
+  width: 60%;
+}
+
+.spaced-list > ul > .list-item:hover{
+  background-color: var(--dark-grey);
+  color: #fff;
+  color: var(--secondary-color);
+  border-radius: 1rem; 
+}
+
+.spaced-list > ul > .list-with-border{
+  border: 1px solid var(--dark-grey);
+  margin: 0.5rem 0rem;
+}
+
+.spaced-list > ul > .list-with-border:hover{
+  background-color: var(--dark-grey);
+  color: #fff;
+  color: var(--secondary-color);
+  border-radius: 0rem;
+}
+/********/
+
+
+/* Stacked List */
+.stacked-list{
+
+}
+
+.stacked-list > ul > .list-item{
+  padding: 0rem 2rem;
+  cursor: pointer;
+  width: 60%;
+}
+
+.stacked-list > ul > .list-item:hover{
+  background-color: var(--dark-grey);
+  color: #fff;
+  color: var(--secondary-color);
+}
+
+.stacked-list > ul > .list-stacked-border{
+  border: 1px solid var(--dark-grey);
+}
+/*******/

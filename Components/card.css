@@ -1,0 +1,222 @@
+.card-section {
+}
+
+.card-row {
+  display: flex;
+  gap: 10px;
+  /* justify-content: space-evenly; */
+}
+
+.card-card {
+  margin: 10px 10px;
+  max-width: 150px;
+  position: relative;
+  border-radius: 1rem;
+  background-color: #fff;
+  padding: 0.6rem 0.6rem;
+  padding-bottom: 0.1rem;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-img {
+  border-radius: 0.7rem 0.7rem 0 0;
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+.card-badge-new {
+  position: absolute;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 0.2rem 0rem;
+  top: 2rem;
+  width: 100px;
+  padding: 0.3rem;
+  clip-path: polygon(0% 0%, 41% 0%, 33% 50%, 39% 97%, 0% 97%);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.fa-heart-o {
+  font-size: 1.4rem;
+  color: var(--dark-grey);
+  position: absolute;
+  top: 1.8rem;
+  right: 1rem;
+}
+
+.fa-heart-o:hover {
+  fill: var(--background-color);
+  cursor: pointer;
+}
+
+.card-info {
+  padding: 0.5rem;
+  position: relative;
+  margin: 10px 0;
+}
+
+.card-info > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0rem 0;
+  position: relative;
+  bottom: 1.2rem;
+}
+
+.card-info > h4 {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0rem 0;
+  position: relative;
+  bottom: 1.5rem;
+}
+
+.card-info > p {
+  position: absolute;
+  bottom: 5px;
+  font-size: 0.7rem;
+}
+
+.card-card > button > .icon {
+  width: 25px;
+  height: 25px;
+}
+
+.card-card > button > span {
+  margin: 1rem;
+  color: var(--secondary-color);
+  font-size: 0.8rem;
+}
+
+.card-card > .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem;
+  padding: 0rem;
+  width: 100%;
+  position: relative;
+  bottom: 0.8rem;
+  box-shadow: var(--box-shadow);
+}
+
+.card-discount {
+  color: var(--primary-color);
+}
+
+/* Card dismiss */
+.card-dismiss {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  border-radius: 20%;
+  position: absolute;
+  padding: 0rem 0.5rem;
+  cursor: pointer;
+  box-shadow: var(--primary-box-shadow);
+  top: 1.2rem;
+  right: 1rem;
+}
+/*******/
+
+/* Card Overlay */
+.card-overlay {
+  max-width: 400px;
+  height: 100%;
+  position: relative;
+}
+
+.card-overlay > .card-img {
+  max-width: 400px;
+  height: 100%;
+}
+
+.card-text-overlay {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.card-text-overlay > p {
+  position: relative;
+}
+/*******/
+
+/* Text Card */
+.text-card {
+  max-width: 250px;
+}
+
+.text-card > .card-info > p {
+  position: relative;
+}
+
+.text-card > .btn-text {
+  width: 50%;
+  padding: -0.5rem;
+  margin: 1rem;
+  position: relative;
+  bottom: 1rem;
+}
+/******/
+
+/* Vertical Card */
+.card-vertical {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 350px;
+  gap: 0.5rem;
+  padding: 0.6rem 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.card-vertical > .card-img {
+  border-radius: 0.7rem 0.7rem 0 0;
+  width: 100%;
+  max-width: 130px;
+  height: auto;
+}
+
+.card-vertical > .fa-heart-o {
+  position: absolute;
+  right: 2rem;
+}
+
+.card-vertical > .card-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card-vertical > .card-info > h3 {
+  font-size: 1.5rem;
+}
+
+.card-vertical > .card-info > h4 {
+  font-size: 0.8rem;
+  bottom: 1.5rem;
+}
+
+.card-vertical > .card-info > p {
+  position: relative;
+  font-size: 1rem;
+}
+
+.card-vertical > .card-info > .btn {
+  position: relative;
+  bottom: 0.5rem;
+  padding: 0.5rem 1.4rem;
+  box-shadow: var(--box-shadow);
+}
+
+.card-vertical > .card-info > .btn > span {
+  position: relative;
+  top: -0.4rem;
+  left: 0.6rem;
+}
+/********/

@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&display=swap");
+
+@import "component.css";
+
+body {
+  box-sizing: border-box;
+  font-family: "Maven Pro", sans-serif;
+  background-color: var(--background-color);
+  padding: 0 100px;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+  /* padding: 0 80px; */
+  height: 60px;
+}
+
+.navbar > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: black;
+  gap: 20px;
+}
+
+.navbar > a > span {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.logo > img {
+  width: 64px;
+  height: 64px;
+}
+
+.navbar > .nav-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar > .nav-icons > a {
+  position: relative;
+  top: 5px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content > h1 {
+  font-size: 56px;
+  margin: 10px 0;
+}
+
+.main-content > .h1-second > a {
+  color: #ff4500;
+}
+
+.main-content > p {
+  text-align: center;
+  margin: 40px 0;
+  width: 600px;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.main-content > .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.main-content > .button > a > div > button {
+  width: 140px;
+}
+
+.bootom-nav-icons {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+  .navbar {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navbar > a {
+    gap: 20px;
+  }
+
+  .navbar > .nav-icons {
+    display: none;
+  }
+
+  .main-content > h1 {
+    font-size: 32px;
+  }
+
+  .main-content > p {
+    width: 300px;
+    font-size: 18px;
+  }
+
+  .main-content > .button {
+    gap: 0px;
+  }
+
+  .bootom-nav-icons {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .bootom-nav-icons > span {
+    font-weight: 400;
+  }
+
+  .bootom-nav-icons > a {
+    margin: 0 5px;
+    color: black;
+  }
+}
